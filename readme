@@ -8,7 +8,8 @@ Steps for the execution :
 2. open terminal / powershell / commandline 
 3. cd <CYPRESSAUTOMATION_file_path>\  
 4. ls , to make sure package.json exist 
-5. .\node_modules\.bin\cypress run --spec "cypress\integration\2-advanced-examples\TestAddressBook.js"
+5. npm install cypress --save-dev
+6. .\node_modules\.bin\cypress run --spec "cypress\integration\2-advanced-examples\TestAddressBook.js"
   (note that there maybe timeout error for the first time cypress execution, try to re-run again )
-6. to launch the test loader UI , and then click the "TestAddressBook.js" 
+7. to launch the test loader UI , and then click the "TestAddressBook.js" 
     .\node_modules\.bin\cypress open
