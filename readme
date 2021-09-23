@@ -1,0 +1,14 @@
+Pre-requisite : 
+1. node.js and npm should be installed, verify that by 
+    node --version 
+    npm --version
+
+Steps for the execution : 
+1. rename CYPRESSAUTOMATION.zip_ to CYPRESSAUTOMATION.zip , and then unzip the CYPRESSAUTOMATION.zip
+2. open terminal / powershell / commandline 
+3. cd <CYPRESSAUTOMATION_file_path>\  
+4. ls , to make sure package.json exist 
+5. .\node_modules\.bin\cypress run --spec "cypress\integration\2-advanced-examples\TestAddressBook.js"
+  (note that there maybe timeout error for the first time cypress execution, try to re-run again )
+6. to launch the test loader UI , and then click the "TestAddressBook.js" 
+    .\node_modules\.bin\cypress open
